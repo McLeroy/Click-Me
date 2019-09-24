@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Click Me</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">Login</string>
+    <string name="click_me">Click Me</string>
+    <string name="reset_session">Reset Session</string>
+    <string name="change_window">Change Window</string>
+    <string name="logout">Logout</string>
+    <string name="set">Set</string>
+</resources>

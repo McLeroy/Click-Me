@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorTextSubtitle</item>
+        <item name="android:textColorPrimary">@color/colorTextBody</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+        <item name="android:textViewStyle">@style/TextAppearance.Body</item>
+        <item name="textInputStyle">@style/TextInputLayout</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="materialButtonStyle">@style/Button.Primary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_edit_text_box</item>
+        <item name="android:color">@color/colorTextBody</item>
+    </style>
+
+    <style name="TextAppearance.Body" parent="Base.TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/colorTextBody</item>
+    </style>
+
+    <style name="TextInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxBackgroundMode">none</item>
+        <item name="hintEnabled">false</item>
+        <item name="android:background">@drawable/bg_edit_text_box</item>
+        <item name="android:padding">0dp</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@color/colorDivider</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
+        <item name="boxStrokeWidth">0.1dp</item>
+        <item name="colorControlActivated">@android:color/black</item>
+        <item name="hintTextColor">@color/colorDivider</item>
+        <item name="android:textColor">@color/colorTextBody</item>
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+    <style name="Button.Primary" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/primary_btn_color</item>
+        <item name="android:textColor">@color/primary_btn_text_color</item>
+        <item name="elevation">@dimen/button_elevation</item>
+        <item name="cornerRadius">@dimen/corner_radius</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+    </style>
+</resources>

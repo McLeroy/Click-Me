@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_x2">24dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="button_elevation">0dp</dimen>
+    <dimen name="button_min_height">60dp</dimen>
+</resources>
